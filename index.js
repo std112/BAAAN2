@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace this with your actual Steam Web API key
-const STEAM_API_KEY = 'D71C09AA4CB79F55A8E9363B5CDC439F';
+const STEAM_API_KEY = 'D7EA583D69A9ACAAB90D1ACAB054C397';
 
 app.use(cors());
 
