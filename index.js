@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace this with your actual Steam Web API key
-const STEAM_API_KEY = '3A65CBBFC67CA3976D0B1BA2F496CCCF';
+const STEAM_API_KEY = '72F78F49AF6FE6DB7D201FA6D5D6D0FF';
 
 app.use(cors());
 
@@ -58,6 +58,7 @@ app.get('/profile', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
 
 
 
